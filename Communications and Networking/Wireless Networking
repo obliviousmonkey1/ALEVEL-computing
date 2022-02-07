@@ -1,0 +1,56 @@
+# Wireless  networking
+
+1) Explain why browsing the internet might be slower at a public hotsopt in a coffee shop tahtn at home on a wireless network [2 marks]
+
+
+A larger amount of people trying to access the same access point, a higher traffic volume would lead to more collision which leads to amount of data having to be re-sent , as well as a larger queue of messages waiting to be transmitted and recieved. 
+
+
+>Speed might be limited to each device connected.
+
+>More clients connecting to one access point, which would lead to more collisions.
+
+## CSMA/CA VS CSMA/CA with RTS/CTS (RTS/CTS in addition to CSMA/CA)
+
+CSMA/CA only sends when it thinks the channel is clear. 
+
+CSMA/CA with RTS/CTS to prevent collision RTS(request to send) and CTS(clear to send) are used. When a device sends a signal an RTS is sent.
+
+
+1) RTS AND CTS add extra time to a data transmission between two stations. Under what circumstances would they be used : 
+
+* When many collsions are occuring due to hidden stations 
+
+
+## Securing wireless networks:
+
+Wi-Fi Protected access (WPA)
+Wi-Fi Protected access (WPA2)
+
+User has to know the pre-shared secret key(PSK)
+This is checked by the wirless access point which controls
+
+1) What are WPA and WPA2:
+
+* They are wirless authentication and protection standard protocals.
+
+2) State and explain 3 reasons why wirless networks need to be secured:
+
+* To keep messages confidential 
+* Avoid congestion only people allowed access to the network can use it 
+* To prevent spoofing - when messages purport to come from a genuine user when they don't 
+
+### SSID broadcasting disable
+
+When the client who knows the SSID want to connect, authentication means the client sends a probe request  messgae and recives the probe response form the access point 
+
+The unencypted SSID is present in these packets, therefore reducing the effectivness of disabling broadcasting of the SSID
+
+## MAC 
+Internal list of MAC addresses that only permits people on it to access the network.
+
+However can spoof a mac address to one that is permitted and gain access to the network
+
+## Wi-Fi location based tech
+
+GPS, MRM, LBS
